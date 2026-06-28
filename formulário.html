@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário teste</title>
+  </head>
+  <body>
+    <h1>
+      Formulário de teste
+    </h1>
+  </body>
+
+  <form>
+
+    <!--campo para nome-->
+    <label for="nome">Seu nome:</label>
+    <input type="text" id="nome" placeholder="digite seu nome" required>
+
+    <!--Campo de cores-->
+    <select name="etnia" required>
+      <option selected disabled value="">Selecione uma cor</option><option value="Branca">Branca</option><option value="Negra">Negra</option><option value="Parda">Parda</option><option value="Indígena">Indígena</option>
+    </select><br>
+
+    <!--campo para email-->
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="digite seu email" required>
+
+    <!--Formulário de gênero-->
+    <select name="Gênero" required>
+      <option selected disabled value="Identificação">Identificação</option>
+      <option value="Masculino">Masculino</option>
+      <option value="Feminino">Feminino</option>
+      <option value="Trans">Transgênero</option>
+      <option value="NB">Não-bináre</option>
+      <option value="NI">prefiro não infomar</option>
+    </select><br><br><hr>
+
+    <br><br><input type="submit" value="Enviar Formulário" required>
+
+  </form>
+
+  <br><a href="index.html">voltar ao início</a>
+</html>
